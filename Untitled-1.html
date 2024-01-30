@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <script src="script.js" defer></script> <!-- Link to your JavaScript file -->
+</head>
+<body>
+      <!-- Player Selection Screen -->
+      <div id="playerSelectionScreen" class="screen">
+        <h1>Welcome to the Quiz Game</h1>
+        <form id="playerSelectionForm">
+            <div id="playerNameInputs">
+                <!-- Player name input fields will be added here -->
+            </div>
+            <label for="numberOfPlayers">Select Number of Players (1-4):</label>
+            <select id="numberOfPlayers" name="numberOfPlayers">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            <button type="button" id="toSubjectSelection">Next</button>
+        </form>
+    </div>
+    
+        <!-- Subject Selection Screen -->
+        <div id="subjectSelectionScreen" class="screen" style="display: none;">
+            <h2>Select Quiz Subject</h2>
+            <button type="button" class="subjectButton" data-subject="HTML">HTML</button>
+            <button type="button" class="subjectButton" data-subject="CSS">CSS</button>
+            <button type="button" class="subjectButton" data-subject="JavaScript">JavaScript</button>
+            <button type="button" id="backToPlayerSelection">Previous</button>
+        </div>
+    <!-- Quiz Screen -->
+    <div id="quizScreen" class="screen" style="display: none;">
+        <div id="playerInfo"></div> <!-- Player names and scores will be displayed here -->
+        <div id="question"></div> <!-- For displaying the question text -->
+        <div id="answers"></div> <!-- For displaying the answer buttons -->
+        
+        <button type="button" id="nextQuestion" disabled>Continue</button>
+
+    </div>
+    <div id="currentPlayerHeader"></div>
+    <div id="timer"></div>
+    <div id="gameArea"></div>
+    <div id="currentPlayerDisplay"></div>
+
+</body>
+</html>

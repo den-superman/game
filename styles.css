@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.screen {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+select, button {
+    padding: 10px 15px;
+    margin: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
+#question {
+    background-color: #e9ecef;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#answers {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    text-align: center;
+}
+
+.subjectButton, .answerButton {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    margin: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.subjectButton:hover, .answerButton:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+    .screen {
+        width: 95%;
+    }
+
+    #answers {
+        grid-template-columns: 1fr;
+    }
+}
+body {
+    background-image: url("http://127.0.0.1:8081/depositphotos_191818514-stock-illustration-full-frame-image-mixing-blue.jpg");
+    background-size: cover;
+    background-position: center;
+}

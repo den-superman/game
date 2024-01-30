@@ -1,0 +1,424 @@
+{
+    "questions": [
+        {
+            "questionText": "What does HTML stand for?",
+            "options": [
+                "Hypertext and Text Markup Language",
+                "Hyperlink and Text Markup Language",
+                "Hypertext Markup Language",
+                "High Text Markup Language"
+            ],
+            "correctAnswer": "Hypertext Markup Language"
+        },
+        {
+            "questionText": "Which HTML tag is used to define an anchor/link?",
+            "options": [
+                "<link>",
+                "<anchor>",
+                "<href>",
+                "<a>"
+            ],
+            "correctAnswer": "<a>"
+        },
+        {
+            "questionText": "What is the correct HTML element for the largest heading?",
+            "options": [
+                "<heading>",
+                "<h1>",
+                "<head>",
+                "<h6>"
+            ],
+            "correctAnswer": "<h1>"
+        },
+        {
+            "questionText": "Which HTML tag is used to define a paragraph?",
+            "options": [
+                "<p>",
+                "<pg>",
+                "<paragraph>",
+                "<para>"
+            ],
+            "correctAnswer": "<p>"
+        },
+        {
+            "questionText": "What does CSS stand for?",
+            "options": [
+                "Cascading Style Sheet",
+                "Colorful Style Sheet",
+                "Computer Style Sheet",
+                "Creative Style Sheet"
+            ],
+            "correctAnswer": "Cascading Style Sheet"
+        },
+        {
+            "questionText": "Which HTML tag is used to define a list item in an ordered list?",
+            "options": [
+                "<ol>",
+                "<li>",
+                "<ul>",
+                "<list>"
+            ],
+            "correctAnswer": "<li>"
+        },
+        {
+            "questionText": "Which HTML tag is used to define a table?",
+            "options": [
+                "<tbl>",
+                "<tble>",
+                "<tab>",
+                "<table>"
+            ],
+            "correctAnswer": "<table>"
+        },
+        {
+            "questionText": "What is the correct HTML for creating a hyperlink?",
+            "options": [
+                "<a url='http://www.example.com'>Example</a>",
+                "<link href='http://www.example.com'>Example</link>",
+                "<a link='http://www.example.com'>Example</a>",
+                "<a href='http://www.example.com'>Example</a>"
+            ],
+            "correctAnswer": "<a href='http://www.example.com'>Example</a>"
+        },
+        {
+            "questionText": "Which HTML tag is used to define a form?",
+            "options": [
+                "<submit>",
+                "<input>",
+                "<button>",
+                "<form>"
+            ],
+            "correctAnswer": "<form>"
+        },
+        {
+            "questionText": "In HTML, which tag is used to create an ordered list?",
+            "options": [
+                "<ol>",
+                "<li>",
+                "<dl>",
+                "<ul>"
+            ],
+            "correctAnswer": "<ol>"
+        },
+        {
+            "questionText": "What is the correct HTML for inserting an image?",
+            "options": [
+                "<image src='image.jpg' alt='MyImage'>",
+                "<img src='image.jpg' alt='MyImage'>",
+                "<img file='image.jpg' alt='MyImage'>",
+                "<picture src='image.jpg' alt='MyImage'>"
+            ],
+            "correctAnswer": "<img src='image.jpg' alt='MyImage'>"
+        },
+        {
+            "questionText": "Which HTML tag is used to define a hyperlink?",
+            "options": [
+                "<link>",
+                "<href>",
+                "<hyperlink>",
+                "<a>"
+            ],
+            "correctAnswer": "<a>"
+        },
+        {
+            "questionText": "What is the correct HTML for creating a checkbox?",
+            "options": [
+                "<input type='checkbox'>",
+                "<input type='radio'>",
+                "<input type='text'>",
+                "<input type='button'>"
+            ],
+            "correctAnswer": "<input type='checkbox'>"
+        },
+        {
+            "questionText": "Which HTML tag is used to define a header for a document or a section?",
+            "options": [
+                "<header>",
+                "<section>",
+                "<h1>",
+                "<h2>"
+            ],
+            "correctAnswer": "<h1>"
+        },
+        {
+            "questionText": "What does the <br> tag do in HTML?",
+            "options": [
+                "Defines a bold text",
+                "Creates a line break",
+                "Defines a paragraph",
+                "Defines a hyperlink"
+            ],
+            "correctAnswer": "Creates a line break"
+        },
+        {
+            "questionText": "Which HTML attribute is used to specify an alternate text for an image, if the image cannot be displayed?",
+            "options": [
+                "title",
+                "src",
+                "alt",
+                "href"
+            ],
+            "correctAnswer": "alt"
+        },
+        {
+            "questionText": "What is the correct HTML for creating a hyperlink to an email address?",
+            "options": [
+                "<link href='example@example.com'>Email</link>",
+                "<a href='mailto:example@example.com'>Email</a>",
+                "<email href='example@example.com'>Email</email>",
+                "<mail href='mailto:example@example.com'>Email</mail>"
+            ],
+            "correctAnswer": "<a href='mailto:example@example.com'>Email</a>"
+        },
+        {
+            "questionText": "Which HTML tag is used to define a list item in an unordered list?",
+            "options": [
+                "<li>",
+                "<list>",
+                "<ul>",
+                "<ol>"
+            ],
+            "correctAnswer": "<li>"
+        },
+        {
+            "questionText": "What is the correct HTML for creating a hyperlink to another webpage?",
+            "options": [
+                "<a href='http://www.example.com'>Example</a>",
+                "<link href='http://www.example.com'>Example</link>",
+                "<a src='http://www.example.com'>Example</a>",
+                "<a url='http://www.example.com'>Example</a>"
+            ],
+            "correctAnswer": "<a href='http://www.example.com'>Example</a>"
+        },
+        {
+            "questionText": "Which HTML tag is used to define a division or a section in an HTML document?",
+            "options": [
+                "<div>",
+                "<section>",
+                "<p>",
+                "<article>"
+            ],
+            "correctAnswer": "<div>"
+        },
+        {
+            "questionText": "What is the correct HTML for creating a hyperlink to an external style sheet?",
+            "options": [
+                "<style src='styles.css'>",
+                "<css href='styles.css'>",
+                "<link rel='stylesheet' type='text/css' href='styles.css'>",
+                "<link rel='style' type='text/css' href='styles.css'>"
+            ],
+            "correctAnswer": "<link rel='stylesheet' type='text/css' href='styles.css'>"
+        },
+        {
+            "questionText": "Which HTML tag is used to create a line break within text?",
+            "options": [
+                "<break>",
+                "<br>",
+                "<lb>",
+                "<newline>"
+            ],
+            "correctAnswer": "<br>"
+        },
+        {
+            "questionText": "What is the correct HTML for creating a hyperlink to a bookmark within the same page?",
+            "options": [
+                "<a src='#bookmark'>Go to Bookmark</a>",
+                "<a href='#bookmark'>Go to Bookmark</a>",
+                "<a bookmark='#bookmark'>Go to Bookmark</a>",
+                "<link href='#bookmark'>Go to Bookmark</link>"
+            ],
+            "correctAnswer": "<a href='#bookmark'>Go to Bookmark</a>"
+        },
+        {
+            "questionText": "Which HTML tag is used to define the footer of a document or a section?",
+            "options": [
+                "<p>",
+                "<section>",
+                "<footer>",
+                "<article>"
+            ],
+            "correctAnswer": "<footer>"
+        },
+        {
+            "questionText": "In HTML, which tag is used to create an unordered list?",
+            "options": [
+                "<li>",
+                "<dl>",
+                "<ol>",
+                "<ul>"
+            ],
+            "correctAnswer": "<ul>"
+        },
+        {
+            "questionText": "What is the correct HTML for creating a text input field?",
+            "options": [
+                "<text input='field'>",
+                "<text type='input'>",
+                "<input field='text'>",
+                "<input type='text'>"
+            ],
+            "correctAnswer": "<input type='text'>"
+        },
+        {
+            "questionText": "Which HTML tag is used to define a line break or a new paragraph?",
+            "options": [
+                "<lb>",
+                "<br>",
+                "<newline>",
+                "<p>"
+            ],
+            "correctAnswer": "<br>"
+        },
+        {
+            "questionText": "What is the correct HTML for creating a radio button?",
+            "options": [
+                "<radio button='input'>",
+                "<input button='radio'>",
+                "<input type='checkbox'>",
+                "<input type='radio'>"
+            ],
+            "correctAnswer": "<input type='radio'>"
+        },
+        {
+            "questionText": "Which HTML tag is used to define a navigation menu?",
+            "options": [
+                "<navbar>",
+                "<navigation>",
+                "<nav>",
+                "<menu>"
+            ],
+            "correctAnswer": "<nav>"
+        },
+        {
+            "questionText": "What does the HTML <head> element contain?",
+            "options": [
+                "The navigation menu of the page",
+                "The title and metadata of the page",
+                "The main content of the page",
+                "The footer of the page"
+            ],
+            "correctAnswer": "The title and metadata of the page"
+        },
+        {
+            "questionText": "Which HTML attribute is used to specify the URL of the linked resource?",
+            "options": [
+                "url",
+                "link",
+                "href",
+                "src"
+            ],
+            "correctAnswer": "href"
+        },
+        {
+            "questionText": "What is the correct HTML for creating a button?",
+            "options": [
+                "<input type='text'>",
+                "<button>Click me</button>",
+                "<button type='button'>Click me</button>",
+                "<input type='button'>Click me</input>"
+            ],
+            "correctAnswer": "<button type='button'>Click me</button>"
+        },
+        {
+            "questionText": "Which HTML tag is used to define the main content of an HTML document?",
+            "options": [
+                "<content>",
+                "<page>",
+                "<main>",
+                "<body>"
+            ],
+            "correctAnswer": "<main>"
+        },
+        {
+            "questionText": "What is the correct HTML for creating a numbered list?",
+            "options": [
+                "<ol>",
+                "<li>",
+                "<dl>",
+                "<ul>"
+            ],
+            "correctAnswer": "<ol>"
+        },
+        {
+            "questionText": "Which HTML attribute is used to specify the image source URL?",
+            "options": [
+                "src",
+                "link",
+                "url",
+                "href"
+            ],
+            "correctAnswer": "src"
+        },
+        {
+            "questionText": "What is the correct HTML for creating a dropdown list?",
+            "options": [
+                "<list>",
+                "<dropdown>",
+                "<input type='dropdown'>",
+                "<select>"
+            ],
+            "correctAnswer": "<select>"
+        },
+        {
+            "questionText": "Which HTML tag is used to define an image map?",
+            "options": [
+                "<image>",
+                "<map>",
+                "<imagemap>",
+                "<imgmap>"
+            ],
+            "correctAnswer": "<map>"
+        },
+        {
+            "questionText": "What does the HTML <meta> element do?",
+            "options": [
+                "Defines a paragraph",
+                "Defines a list item",
+                "Specifies metadata about the HTML document",
+                "Defines a hyperlink"
+            ],
+            "correctAnswer": "Specifies metadata about the HTML document"
+        },
+        {
+            "questionText": "Which HTML tag is used to define a line or a thematic break in an HTML document?",
+            "options": [
+                "<line>",
+                "<thematic>",
+                "<hr>",
+                "<break>"
+            ],
+            "correctAnswer": "<hr>"
+        },
+        {
+            "questionText": "What is the correct HTML for creating a text area?",
+            "options": [
+                "<text area='field'>",
+                "<input type='textarea'>",
+                "<input area='text'>",
+                "<textarea>"
+            ],
+            "correctAnswer": "<textarea>"
+        },
+        {
+            "questionText": "Which HTML tag is used to define a list item in a definition list?",
+            "options": [
+                "<dt>",
+                "<li>",
+                "<ol>",
+                "<ul>"
+            ],
+            "correctAnswer": "<dt>"
+        },
+        {
+            "questionText": "What is the correct HTML for creating an email input field?",
+            "options": [
+                "<text type='input'>",
+                "<email input='field'>",
+                "<input type='email'>",
+                "<input field='email'>"
+            ],
+            "correctAnswer": "<input type='email'>"
+        }
+    ]
+}
